@@ -54,7 +54,7 @@ def initserver():
 
     db.session.commit()
 
-    print u'数据库初始化成功'
+    print("init successfully")
 
 # 将选课表中所有选课记录的考勤时间和状态置为0
 @manager.command
@@ -65,7 +65,7 @@ def resetdata():
         sc.attendance_state = False
     db.session.commit()
 
-    print u'考勤数据重置成功'
+    print("reset successfully")
 
 
 if __name__ == '__main__':
