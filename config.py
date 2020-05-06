@@ -8,7 +8,7 @@
 DIALECT = 'mysql'
 DRIVER = 'mysqldb'
 USERNAME = 'root'
-PASSWORD = 'password'
+PASSWORD = '********'
 HOST = '127.0.0.1'
 PORT = '3306'
 DATABASE = 'facedata'
