@@ -70,7 +70,7 @@ def login():
     except:
         data = {
             'code': 40002,
-            'text': '数据格式异常'
+            'text': '数据格式错误'
         }
         return jsonify(data)
     else:
@@ -202,7 +202,7 @@ def setstate():
     except:
         data = {
             'code': 40002,
-            'text': '数据格式异常'
+            'text': '数据格式错误'
         }
         return jsonify(data)
     else:
