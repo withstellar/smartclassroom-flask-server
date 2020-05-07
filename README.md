@@ -78,7 +78,7 @@ set global validate_password_policy=0;	#修改密码安全性为LOW或者使用�
 
 ```json
 {
-	"stu_id": 2018302110001,
+    "stu_id": 2018302110001,
     "password": "********"
 }
 ```
@@ -86,10 +86,10 @@ set global validate_password_policy=0;	#修改密码安全性为LOW或者使用�
 1.正常返回
 ```json
 {
-	"code": 20000,
+    "code": 20000,
     "stu_id": 2018302110001,
     "name": "王乐容",
-    "department": "计算机学院"			
+    "department": "计算机学院"
 }
 ```
 2.异常返回
